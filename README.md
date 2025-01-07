@@ -1,6 +1,5 @@
 # Login Page
 
----
 
 ##### Credits to Artists
 
@@ -10,4 +9,4 @@
 
 Sample Outputs:
 
-- <img title="" src="file:///C:/projects/Login%20Pages/Login%20Page%201/output.png" alt="page1" width="675">
+<img title="" src="./Login Page 1/output.png" alt="page1" width="675">
