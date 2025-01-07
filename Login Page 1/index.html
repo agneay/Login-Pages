@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8"/>
+        <meta name="author" content="Agneay B Nair"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <meta name="description" content="Login Page"/>
+        <meta name="keywords" content="Login Page, Sign-In , Sign-Up"/>
+        <meta http-equiv="refresh" content="10"/>
+
+        <link rel="icon" type="x-icon/image" href="./assets/icon.png"/>
+        <!-- Main StyleSheet-->
+        <link rel="stylesheet" href="style.css"/>
+        <!--font awesome library-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="flex-container">
+        <div id="welcome-side">
+            <h1>Welcome Back!</h1>
+            <p>To keep connected with us please login with your personal info</p>
+            <button id="SignInBtn">Sign-in</button>
+        </div>
+        <div id="form-side">
+            <div class="flex-container-2">
+            <h1>Create Account</h1>
+            <div class="social-media-icons">
+            <a href="#"><img src="./assets/social media icons/fb.svg" width="30" height="30" class="social-icon"/></a>
+            <a href="#"><img src="./assets/social media icons/google.svg" width="30" height="30" class="social-icon"/></a>
+            <a href="#"><img src="./assets/social media icons/linkedin.svg" width="30" height="30" class="social-icon"/></a>
+            </div>
+            <p>Or use your E-mail for registration</p>
+            <form>
+                <div class="input-container">
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" placeholder="Name" class="input-element"/><br>
+                </div>
+                <div class="input-container">
+                    <i class="fa fa-envelope icon"></i>
+                    <input type="email" placeholder="E-mail" class="input-element"/><br>
+                </div>
+                <div class="input-container">
+                    <i class="fa fa-key icon"></i>
+                    <input type="password" placeholder="Password" class="input-element"></input><br>
+                </div>
+                <input type="submit" value="Sign-Up" id="SignUpBtn"/>
+            </form>
+        </div>
+        </div>
+    </div>
+    </body>
+</html>
